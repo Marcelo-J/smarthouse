@@ -114,7 +114,7 @@ const MessageBox = ({ type, message, onClose, onConfirm, onCancel }) => {
 
 // Login Component
 // API configuration
-const API_BASE_URL = 'http://localhost:3000/api'; // Adjust this to your backend URL
+const API_BASE_URL = 'https://smarthouse-backend-2bmj.onrender.com/api'; // Adjust this to your backend URL
 
 // API helper functions
 const apiRequest = async (endpoint, options = {}) => {
