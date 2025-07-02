@@ -12,7 +12,9 @@ app.use(express.json());
 app.use(cors({
   origin: [
     'http://localhost:5173',                      // Local Vite dev server
-    'https://marcelojs-projects-smarthouse.vercel.app'  // Your Vercel frontend URL
+    'https://smarthouse-coral.vercel.app',          // Main production frontend
+    'https://smarthouse-git-master-marcelojs-projects.vercel.app', // Git branch preview
+    'https://smarthouse-ginw0tfij-marcelojs-projects.vercel.app'  // Your Vercel frontend URL
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
